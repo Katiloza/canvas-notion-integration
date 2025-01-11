@@ -30,3 +30,4 @@ COPY . .
 
 # Run the application.
 CMD node main.js
+docker run --env-file ./.env canvas-notion-integration
